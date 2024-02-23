@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: staging
+    database: stunning-maxim-411319
+     # For postgres:
+      #database: production
+    schema: ny_tripdata_all
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: green_trips
+      - name: yellow_trips
+         # freshness:
+           # error_after: {count: 6, period: hour}
