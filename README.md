@@ -10,6 +10,7 @@
 ### Algunos comandos
 
 dbt build  
+dbt deps
 dbt docs generate
 
 #### Para delimitar el dataset
